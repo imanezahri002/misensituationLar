@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <input type="text" name="name">
+        <input type="number" name="prix">
+        <input type="text" name="description">
+        <button type="submit" name="send">send</button>
+    </form>
 </body>
 </html>

@@ -13,15 +13,15 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        return view('ListeProducts');
     }
-   
+
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        //
+        return view('products');
     }
 
     /**
